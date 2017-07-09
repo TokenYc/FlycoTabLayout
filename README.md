@@ -3,6 +3,11 @@
 #### [中文版](https://github.com/H07000223/FlycoTabLayout/blob/master/README_CN.md)
 An Android TabLayout Lib has 3 kinds of TabLayout at present.
 
+#### Extension
+ - tl_selected_textsize TextSize when tab selected（support SlidingTabLayout）
+ 
+        tl:tl_selected_textsize="20sp"
+ 
 * SlidingTabLayout: deeply modified from [PagerSlidingTabStrip](https://github.com/jpardogo/PagerSlidingTabStrip).
     * new added attribute
     * new added kinds of indicators
