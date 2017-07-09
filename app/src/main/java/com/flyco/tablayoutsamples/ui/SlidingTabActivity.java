@@ -49,6 +49,8 @@ public class SlidingTabActivity extends AppCompatActivity implements OnTabSelect
         SlidingTabLayout tabLayout_2 = ViewFindUtils.find(decorView, R.id.tl_2);
         /** 字体加粗,大写 */
         SlidingTabLayout tabLayout_3 = ViewFindUtils.find(decorView, R.id.tl_3);
+        tabLayout_3.setSelectedTextSize(40);
+
         /** tab固定宽度 */
         SlidingTabLayout tabLayout_4 = ViewFindUtils.find(decorView, R.id.tl_4);
         /** indicator固定宽度 */
@@ -91,6 +93,7 @@ public class SlidingTabActivity extends AppCompatActivity implements OnTabSelect
 
         tabLayout_2.showMsg(5, 5);
         tabLayout_2.setMsgMargin(5, 0, 10);
+
 
 //        tabLayout_7.setOnTabSelectListener(new OnTabSelectListener() {
 //            @Override

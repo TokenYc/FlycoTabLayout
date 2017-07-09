@@ -64,10 +64,15 @@
     <!-- title -->
     <!-- 设置字体大小 -->
     <attr name="tl_textsize" format="dimension"/>
+
+    <!--设置选中的字体大小，默认是一样大的-->
+    <attr name="tl_selected_textsize" format="dimension"/>
+
     <!-- 设置字体选中颜色 -->
     <attr name="tl_textSelectColor" format="color"/>
     <!-- 设置字体未选中颜色 -->
     <attr name="tl_textUnselectColor" format="color"/>
+
     <!-- 设置字体加粗 -->
     <attr name="tl_textBold" format="enum">
         <enum name="NONE" value="0"/>
@@ -108,6 +113,8 @@
 
         <!-- title -->
         <attr name="tl_textsize"/>
+        <!--设置选中的字体大小，默认是一样大的-->
+        <attr name="tl_selected_textsize"/>
         <attr name="tl_textSelectColor"/>
         <attr name="tl_textUnselectColor"/>
         <attr name="tl_textBold"/>
@@ -148,6 +155,8 @@
 
         <!-- title -->
         <attr name="tl_textsize"/>
+        <!--设置选中的字体大小，默认是一样大的-->
+        <attr name="tl_selected_textsize"/>
         <attr name="tl_textSelectColor"/>
         <attr name="tl_textUnselectColor"/>
         <attr name="tl_textBold"/>
@@ -197,6 +206,8 @@
 
         <!-- title -->
         <attr name="tl_textsize"/>
+        <!--设置选中的字体大小，默认是一样大的-->
+        <attr name="tl_selected_textsize"/>
         <attr name="tl_textSelectColor"/>
         <attr name="tl_textUnselectColor"/>
         <attr name="tl_textBold"/>
