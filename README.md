@@ -7,6 +7,8 @@ An Android TabLayout Lib has 3 kinds of TabLayout at present.
  - tl_selected_textsize TextSize when tab selected（support SlidingTabLayout）
  
         tl:tl_selected_textsize="20sp"
+
+#### Type
  
 * SlidingTabLayout: deeply modified from [PagerSlidingTabStrip](https://github.com/jpardogo/PagerSlidingTabStrip).
     * new added attribute
