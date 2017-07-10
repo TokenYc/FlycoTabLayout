@@ -66,7 +66,7 @@ can be used freely with other widgets together.
 
 ```groovy
 dependencies{
-  compile 'com.tokenyc.tablayout:FlycoTabLayout_Lib:2.1.2'
+  compile 'com.tokenyc.tablayout:FlycoTabLayout_Lib:2.1.3'
 }
 ```
 
