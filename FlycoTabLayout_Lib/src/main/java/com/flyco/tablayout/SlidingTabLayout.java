@@ -324,7 +324,11 @@ public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.
             TextView tv_tab_title = (TextView) v.findViewById(R.id.tv_tab_title);
             if (tv_tab_title != null) {
                 tv_tab_title.setTextColor(i == mCurrentTab ? mTextSelectColor : mTextUnselectColor);
-                tv_tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
+                if (i==getCurrentTab()){
+                    tv_tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, mSelectedTextSize);
+                }else{
+                    tv_tab_title.setTextSize(TypedValue.COMPLEX_UNIT_PX, mTextsize);
+                }
                 tv_tab_title.setPadding((int) mTabPadding, 0, (int) mTabPadding, 0);
                 if (mTextAllCaps) {
                     tv_tab_title.setText(tv_tab_title.getText().toString().toUpperCase());
