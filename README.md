@@ -5,8 +5,14 @@ An Android TabLayout Lib has 3 kinds of TabLayout at present.
 
 #### Extension
  - tl_selected_textsize TextSize when tab selected（support SlidingTabLayout）
- 
+
+ - xml        
+            
         tl:tl_selected_textsize="20sp"
+       
+ - java      
+       
+        tabLayout_3.setSelectedTextSize(50);
 
 #### Type
  
