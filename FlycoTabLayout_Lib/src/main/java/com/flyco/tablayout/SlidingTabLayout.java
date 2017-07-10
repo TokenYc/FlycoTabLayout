@@ -480,7 +480,6 @@ public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
         if (isInEditMode() || mTabCount <= 0) {
             return;
         }
